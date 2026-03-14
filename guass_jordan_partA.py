@@ -35,4 +35,3 @@ for j in range(cols - 1):
     #print("Matrix after div2: ",matrix,'\n-------------------------')
 
 print(f"matrix after change\n {matrix}")
-
