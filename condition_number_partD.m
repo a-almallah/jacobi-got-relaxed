@@ -10,7 +10,9 @@ Ainv = inv(A)
 
 K = norm(A) * norm(Ainv)
 
-if K <= 10^3
+threshold = input('Enter the ill-conditioned threshold: ');
+
+if K <= threshold
     display("The system is not ill-conditioned");
 else
     display("System is ill-conditioned");
